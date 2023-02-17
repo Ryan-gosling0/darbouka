@@ -1,0 +1,25 @@
+html { 
+    background: url(dimg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#play-button{
+    float: left;
+}
+#bs1{
+    width: 550px;
+    height: 400px;
+    float: right;
+    margin-right: 0%;
+    margin-top: 10%;
+    opacity: 0;
+}
+#bs2{
+    width: 550px;
+    height: 400px;
+    margin-top: 120px;
+    margin-left: -60px;
+    opacity: 0;
+}

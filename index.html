@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <audio id="my-audio" src="heloS.wav"></audio>
+    <audio id="aud1" src="sound1k.mp3"></audio>
+    <audio id="aud2" src="sound2.mp3"></audio>
+    <link rel="stylesheet" href="ha.css">
+    <title>Document</title>
+</head>
+<body>
+  <button id="play-button">Play sound</button>
+  <button id="bs1">Enter-bar</button>
+ <button id="bs2">space-bar</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).keypress(function(e) {
+  if (e.which === 13) {
+    $('#bs1').click();
+  }
+});
+$(document).keypress(function(e) {
+  if (e.which === 32) { 
+    $('#bs2').click();
+  }
+});
+    document.getElementById("play-button").addEventListener("click", function() {
+  document.getElementById("my-audio").play();
+});
+document.getElementById("bs1").addEventListener("click", function() {
+  document.getElementById("aud1").play();
+});
+document.getElementById("bs2").addEventListener("click", function() {
+  document.getElementById("aud2").play();
+});
+</script>
+</html>
