@@ -9,7 +9,7 @@ html {
     float: left;
 }
 #bs1{
-    width: 550px;
+    width: 650px;
     height: 400px;
     float: right;
     margin-right: 0%;
@@ -17,7 +17,7 @@ html {
     opacity: 0;
 }
 #bs2{
-    width: 550px;
+    width: 650px;
     height: 400px;
     margin-top: 120px;
     margin-left: -60px;
